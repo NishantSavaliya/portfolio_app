@@ -1,0 +1,165 @@
+.body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+/* header style */
+.navbar{
+  background-color: #002441 !important;
+  width: 100%;
+}
+.navbar h1{
+  color: #ed6b00;
+}
+.navbar ul li 
+{
+    display: inline-block;
+    padding: 1px 20px;
+}
+.navbar ul li a{
+  text-decoration: none;
+}
+.navbar ul li a:hover{
+  color: #ed6b00 !important;
+  font-weight: 600;
+}
+
+/* slider style */
+
+.portfolio-slider{
+  background-color: #00ba67 !important;
+}
+.portfolio-slider .slider-img{
+  width: 25%;
+  height: 70vh;
+}
+.portfolio-slider .slider-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+.slider-info h3{
+  color: #002441;
+}
+.slider-info hr{
+  color: #ed6b00 !important;
+}
+.slider-info p{
+  color: #002441;
+}
+
+
+/* portfolio style */
+
+.portfolio{
+  background-color: #d7d8da;
+}
+.portfolio h1{
+  color: #002441;
+}
+.portfolio hr{
+  color: #002441;
+}
+
+.portfolio p{
+  font-weight: 700;
+  color: #002441;
+}
+.portfolio .port-img{
+  /* width: 50%; */
+  height: 48vh;
+}
+.port-img img{
+  width: 100%;
+  height: 100%;
+}
+.port-img img:hover{
+  border: #002441 solid 2px;
+  border-radius: 3%;
+}
+
+/* About style */
+.about{
+  background-color: #00ba67;
+}
+.about .progress{
+  height: 30px !important;
+}
+.about .row p{
+  vertical-align: baseline !important;
+}
+.about .row progress{
+  vertical-align: baseline !important;
+}
+
+/* Contact style */
+
+.contact .form{
+  border-radius: 1% !important;
+}
+
+/* DownloadMyCv style */
+
+.cv p{
+  color: #002441;
+}
+.cv p a:hover{
+  color: #00ba67 !important;
+}
+
+/* mobile screen */
+
+@media only screen and (min-width:320px) and (max-width:500px)
+
+{
+  .navbar ul li {
+  display: block !important;
+  padding: 1px 20px;
+  }
+
+  /* slider style */
+
+  .portfolio-slider .slider-img{
+    width: 70% !important;
+    height: 70vh;
+  }
+}
+
+/* tab device */
+@media only screen and (min-width:500px) and (max-width:767px)
+{
+  .navbar ul li {
+    display: block !important;
+    padding: 1px 20px;
+  }
+  .portfolio-slider .slider-img{
+    width: 55% !important;
+    height: 70vh;
+  }
+}
+
+/* desktop device */
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+  .navbar ul li {
+    display: inline-block !important;
+    padding: 1px 15px;
+  }
+  .portfolio-slider .slider-img{
+    width: 30% !important;
+    height: 70vh;
+  }
+}
+
+/* large desktop device */
+@media only screen and (min-width:1025px) and (max-width:1440px)
+{
+  .navbar ul li {
+    display: inline-block;
+    padding: 1px 25px !important;
+  }
+}
